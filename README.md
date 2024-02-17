@@ -307,7 +307,7 @@ local function XYOKK_fake_script() -- TextButton_2.LocalScript
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		Kick("You has banned 109394 Days")
+                game.Players.LocalPlayer:Kick("You has banned 109394 Days")
 	end)
 end
 coroutine.wrap(XYOKK_fake_script)()
